@@ -29,8 +29,7 @@ public class Bike {
 
     public int getGear() {
 
-        int gear1 = gear;
-        return gear1;
+        return gear;
     }
 
     public void accelerate() {
