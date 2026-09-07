@@ -3,9 +3,9 @@ import java.util.ArrayList;
 
 public class MovieFunctions {
 
-    private String movieName;
-    private LocalDateTime dateAdded;
-    private ArrayList<Integer> ratings;
+    private final String movieName;
+    private final LocalDateTime dateAdded;
+    private final ArrayList<Integer> ratings;
 
     public MovieFunctions(String movieName) {
         this.movieName = movieName;
